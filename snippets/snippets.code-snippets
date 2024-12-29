@@ -1,0 +1,36 @@
+{
+    "CTA Teaser": {
+      "prefix": "cta",
+      "body": [
+        "<div class=\"cta-teaser\">",
+        "  <div class=\"cta-teaser__text\">",
+        "    <h2>${1:Your Call to Action Title}</h2>",
+        "    <p>${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "  </div>",
+        "  <div class=\"cta-teaser__link\">",
+        "    <a href=\"javascript\" class=\"btn\">${3:Click Here}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a CTA teaser block with a title, text, and button link"
+    },
+    "Icon Teaser with Link": {
+      "prefix": "iconteasr",
+      "body": [
+        "<div class=\"icon-teaser\">",
+        "  <div class=\"icon-teaser__icon\">",
+        "    <img src=\"${1:https://via.placeholder.com/50}\" alt=\"${2:Icon}\" />",
+        "  </div>",
+        "  <div class=\"icon-teaser__text\">",
+        "    <h2>${3:Your Title Here}</h2>",
+        "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "  </div>",
+        "  <div class=\"icon-teaser__link\">",
+        "    <a href=\"${5:#}\">${6:Read More}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates an icon teaser block with an image, title, text, and a link"
+    }
+  }
+  

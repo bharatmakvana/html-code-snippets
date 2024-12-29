@@ -1,0 +1,43 @@
+{
+  "name": "html-element-code-snippets",
+  "displayName": "HTML Elements Code Snippets",
+  "description": "A collection of snippets which provide the HTML code for the elements like CTA Teaser, Slider, Icon Teaser etc.",
+  "icon": "images/Icon.png",
+  "preview": true,
+  "publisher": "bharat-makvana",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "license": "MIT",
+  "bugs": {
+		"url": "https://github.com/bharatmakvana/html-code-snippets/issues",
+		"email": "bbhavin.nitsan@gmail.com"
+	},
+	"homepage": "https://github.com/bharatmakvana/html-code-snippets",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bharatmakvana/html-code-snippets.git"
+	},
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+		"html",
+		"html5"
+	],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+		"vscode": "^1.0.0"
+	},
+	"__metadata": {
+		"publisherDisplayName": "Bharat Makvana"
+	}
+}
