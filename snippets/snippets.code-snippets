@@ -8,14 +8,52 @@
         "    <p>${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
         "  </div>",
         "  <div class=\"cta-teaser__link\">",
-        "    <a href=\"javascript\" class=\"btn\">${3:Click Here}</a>",
+        "    <a href=\"javascript:;\" class=\"btn\">${3:Click Here}</a>",
         "  </div>",
         "</div>"
       ],
       "description": "Creates a CTA teaser block with a title, text, and button link"
     },
-    "Icon Teaser with Link": {
-      "prefix": "iconteasr",
+    "Slider Block": {
+      "prefix": "slider",
+      "body": [
+        "<div class=\"slider-block\">",
+        "  <div class=\"slider-block__slide\">",
+        "    <div class=\"slider-block__slide-img\">",
+        "      <img src=\"${1:https://via.placeholder.com/600x300}\" alt=\"${2:Slide 1 Image}\" />",
+        "    </div>",
+        "    <div class=\"slider-block__slide-content\">",
+        "      <h3>${3:Slide 1 Title}</h3>",
+        "      <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "      <a href=\"${5:javascript:;}\" class=\"btn\">${6:Learn More}</a>",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"slider-block__slide\">",
+        "    <div class=\"slider-block__slide-img\">",
+        "      <img src=\"${7:https://via.placeholder.com/600x300}\" alt=\"${8:Slide 2 Image}\" />",
+        "    </div>",
+        "    <div class=\"slider-block__slide-content\">",
+        "      <h3>${9:Slide 2 Title}</h3>",
+        "      <p>${10:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "      <a href=\"${11:javascript:;}\" class=\"btn\">${12:Learn More}</a>",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"slider-block__slide\">",
+        "    <div class=\"slider-block__slide-img\">",
+        "      <img src=\"${13:https://via.placeholder.com/600x300}\" alt=\"${14:Slide 3 Image}\" />",
+        "    </div>",
+        "    <div class=\"slider-block__slide-content\">",
+        "      <h3>${15:Slide 3 Title}</h3>",
+        "      <p>${16:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "      <a href=\"${17:javascript:;}\" class=\"btn\">${18:Learn More}</a>",
+        "    </div>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a slider block with 3 slides, each containing an image, title, text, and a link button"
+    },
+    "Icon Teaser": {
+      "prefix": "icon-teaser",
       "body": [
         "<div class=\"icon-teaser\">",
         "  <div class=\"icon-teaser__icon\">",
@@ -26,11 +64,159 @@
         "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
         "  </div>",
         "  <div class=\"icon-teaser__link\">",
-        "    <a href=\"${5:#}\">${6:Read More}</a>",
+        "    <a href=\"${5:javascript:;}\">${6:Read More}</a>",
         "  </div>",
         "</div>"
       ],
       "description": "Creates an icon teaser block with an image, title, text, and a link"
+    },
+    "Card Teaser": {
+      "prefix": "card",
+      "body": [
+        "<div class=\"card-teaser\">",
+        "  <div class=\"card-teaser__img\">",
+        "    <img src=\"${1:https://via.placeholder.com/300x200}\" alt=\"${2:Card Image}\" />",
+        "  </div>",
+        "  <div class=\"card-teaser__content\">",
+        "    <h3>${3:Card Title}</h3>",
+        "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "    <a href=\"${5:javascript:;}\" class=\"btn\">${6:Read More}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a card teaser block with an image, title, text, and a link button"
+    },
+    "Text with Image": {
+      "prefix": "textimage",
+      "body": [
+        "<div class=\"text-with-image\">",
+        "  <div class=\"text-with-image__img\">",
+        "    <img src=\"${1:https://via.placeholder.com/400x300}\" alt=\"${2:Image Description}\" />",
+        "  </div>",
+        "  <div class=\"text-with-image__text\">",
+        "    <h3>${3:Your Title Here}</h3>",
+        "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "    <a href=\"${5:javascript:;}\" class=\"btn\">${6:Learn More}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a text-with-image block with an image, title, text, and a link/button"
+    },
+    "Testimonial Slider": {
+      "prefix": "testimonial",
+      "body": [
+        "<div class=\"testimonial-slider\">",
+        "  <div class=\"testimonial-slide\">",
+        "    <div class=\"testimonial-slide__img\">",
+        "      <img src=\"${1:https://via.placeholder.com/100x100}\" alt=\"${2:Author Image}\" />",
+        "    </div>",
+        "    <div class=\"testimonial-slide__content\">",
+        "      <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>",
+        "      <cite>${4:John Doe, CEO of Example Company}</cite>",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"testimonial-slide\">",
+        "    <div class=\"testimonial-slide__img\">",
+        "      <img src=\"${5:https://via.placeholder.com/100x100}\" alt=\"${6:Author Image}\" />",
+        "    </div>",
+        "    <div class=\"testimonial-slide__content\">",
+        "      <p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>",
+        "      <cite>${8:John Doe, CEO of Example Company}</cite>",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"testimonial-slide\">",
+        "    <div class=\"testimonial-slide__img\">",
+        "      <img src=\"${9:https://via.placeholder.com/100x100}\" alt=\"${10:Author Image}\" />",
+        "    </div>",
+        "    <div class=\"testimonial-slide__content\">",
+        "      <p>${11:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>",
+        "      <cite>${12:John Doe, CEO of Example Company}</cite>",
+        "    </div>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a testimonial slider with images, quotes, and author information"
+    },
+    "Author Card": {
+      "prefix": "author-card",
+      "body": [
+        "<div class=\"author-card\">",
+        "  <div class=\"author-card__img\">",
+        "    <img src=\"${1:https://via.placeholder.com/150}\" alt=\"${2:Author Image}\" />",
+        "  </div>",
+        "  <div class=\"author-card__content\">",
+        "    <h3>${3:John Doe}</h3>",
+        "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "    <div class=\"author-card__socials\">",
+        "      <a href=\"${5:javascript:;}\">Twitter</a>",
+        "      <a href=\"${6:javascript:;}\">LinkedIn</a>",
+        "    </div>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates an author card with an image, name, bio, and social links"
+    },
+    "Feature Teaser": {
+      "prefix": "feature-teaser",
+      "body": [
+        "<div class=\"feature-teaser\">",
+        "  <div class=\"feature-teaser__img\">",
+        "    <img src=\"${1:https://via.placeholder.com/400x300}\" alt=\"${2:Feature Image}\" />",
+        "  </div>",
+        "  <div class=\"feature-teaser__content\">",
+        "    <h3>${3:Feature Title}</h3>",
+        "    <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "    <a href=\"${5:javascript:;}\" class=\"btn\">${6:Learn More}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a feature teaser block with an image, title, description, and link"
+    },
+    "Counter Block": {
+      "prefix": "counter-block",
+      "body": [
+        "<div class=\"counter-block\">",
+        "  <div class=\"counter-block__number\">",
+        "    <span>${1:123}</span>",
+        "  </div>",
+        "  <div class=\"counter-block__text\">",
+        "    <h3>${2:Projects Completed}</h3>",
+        "    <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a counter block with a number, title, and description"
+    },
+    "Logo Wall Slider": {
+      "prefix": "logo-wall-slider",
+      "body": [
+        "<div class=\"logo-wall-slider\">",
+        "  <div class=\"logo-wall-slide\">",
+        "    <img src=\"${1:https://via.placeholder.com/150x100}\" alt=\"${2:Logo 1}\" />",
+        "  </div>",
+        "  <div class=\"logo-wall-slide\">",
+        "    <img src=\"${3:https://via.placeholder.com/150x100}\" alt=\"${4:Logo 2}\" />",
+        "  </div>",
+        "  <div class=\"logo-wall-slide\">",
+        "    <img src=\"${5:https://via.placeholder.com/150x100}\" alt=\"${6:Logo 3}\" />",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a logo wall slider with logos of different brands or partners"
+    },
+    "Hero Teaser": {
+      "prefix": "hero-teaser",
+      "body": [
+        "<div class=\"hero-teaser\">",
+        "  <div class=\"hero-teaser__bg\" style=\"background-image: url('${1:https://via.placeholder.com/1920x800}');\"></div>",
+        "  <div class=\"hero-teaser__content\">",
+        "    <h1>${2:Welcome to Our Website}</h1>",
+        "    <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.}</p>",
+        "    <a href=\"${4:#}\" class=\"btn\">${5:Get Started}</a>",
+        "  </div>",
+        "</div>"
+      ],
+      "description": "Creates a hero teaser block with a background image, title, description, and button"
     }
   }
   

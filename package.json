@@ -5,7 +5,7 @@
   "icon": "images/Icon.png",
   "preview": true,
   "publisher": "bharat-makvana",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -24,7 +24,13 @@
   ],
   "keywords": [
 		"html",
-		"html5"
+		"html5",
+    "html-elements",
+    "html-elements-code",
+    "html-elements-code-snippets",
+    "html-code",
+    "html-code-snippets",
+    "code-snippets"
 	],
   "contributes": {
     "snippets": [

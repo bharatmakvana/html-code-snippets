@@ -4,9 +4,18 @@ A collection of snippets which provide the HTML code for the elements like CTA T
 
 For further more information about some of the code snippets look at the following commands.
 
-## Commands
-* cta - For Call to Actoon HTML Element code 
-* iconteaser - For Icon Teaser HTML Element code
+## Short Text that triggers or provides the full code for the elements
+* cta - For Call to Actoon HTML code
+* slider - For Slider HTML code
+* iconteaser - For Icon Teaser HTML code
+* card - For Card Teaser HTML code
+* textimage - For Card Text with Image HTML code
+* testimonial - For Testimonial Slider HTML code
+* author-card - For Author Card HTML code
+* feature-teaser - For Feature Teaser HTML code
+* counter-block - For Counter Block HTML code
+* logo-wall-slider - For Logo Wall Slider HTML code
+* hero-teaser - For Hero Teaser HTML code
 
 
 ## Requirements
