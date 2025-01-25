@@ -5,6 +5,11 @@ A collection of snippets which provide the HTML code for the elements like CTA T
 For further more information about some of the code snippets look at the following commands.
 
 ## Short Text that triggers or provides the full code for the elements
+* hedaer - For Header Block HTML code
+* footer - For Footer Block HTML code
+* header-banner - For Header Banner HTML code
+* landing-banner - For Landing Banner HTML code
+* landing-banner-slider - For Landing Banner Slider HTML code
 * cta - For Call to Actoon HTML code
 * slider - For Slider HTML code
 * iconteaser - For Icon Teaser HTML code
